@@ -2,7 +2,7 @@
 final project for trainees at company: todolist
 
 Screenshot:
-![todolist wireframe](https://www.dropbox.com/s/gdmvppq8wzyxx8w/Screenshot%202016-07-05%2011.30.38.png?dl=0 "todolist wireframe")
+![todolist wireframe](screenshot.png "todolist wireframe")
 
 ## step 1: redux
 using react + redux to build a todo list application. the user can:
