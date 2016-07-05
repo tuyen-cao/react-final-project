@@ -6,7 +6,22 @@ screenshot:
 ![todolist wireframe](screenshot.png "todolist wireframe")
 
 ## step 1: redux
-using react + redux to build a todo list application. the user can:
+using react + redux to build a todo list application. 
+
+required technologies:
+  - react.js
+  - redux
+    - reducer
+    - actionCreator
+    - connect
+    - Provider
+    - createStore
+    - combineReducers
+    - applyMiddleware
+  - webpack
+  - es6/es2015
+  
+the user can:
 - add new todo:
   input a new content, click the 'Add' button to insert a todo
 - toggle a todo:
@@ -14,7 +29,7 @@ using react + redux to build a todo list application. the user can:
   - completed = true: ~~display text with a line through~~
   - completed = false: display normal text
 - filter the todo list
-  - all: get all the list
+  - all (default filter): get all the list
   - completed: get only completed todos
   - active: get only not completed todos
 
@@ -35,7 +50,8 @@ using react + redux to build a todo list application. the user can:
 
 - step 2-3: react router - simple
 
-  apply react router, create the index path '/' to map to the todo list
+  apply react router, create the index path '/' to map to the todo list.
+  using browser history to config friendly urls
 
 - step 2-4: react router - filter
 
