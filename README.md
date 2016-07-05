@@ -18,6 +18,8 @@ required technologies:
     - createStore
     - combineReducers
     - applyMiddleware
+  - local storage
+  - react router
   - webpack
   - es6/es2015
   
@@ -83,3 +85,5 @@ using the following pattern: [your-name/[step-name],
 |  2-3 |     10    |
 |  2-4 |     5     |
 |   3  |     5     |
+
+- Graduation score: 60%
